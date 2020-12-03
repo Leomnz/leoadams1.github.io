@@ -13,6 +13,7 @@
 html,
 body {
   height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -39,7 +40,7 @@ a {
 .page-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 90vh;
   justify-content: center;
   margin: 0 auto;
   max-width: 45rem;
@@ -48,6 +49,18 @@ a {
 .page-container > * + * {
   margin-top: 1.5rem;
 }
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: var(--color-primary);
+}
+footer a{
+    color: var(--color-light);
+}
+
 
 .nav-main {
   align-items: center;
