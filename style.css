@@ -22,7 +22,9 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-
+main a{
+    color: blue;
+}
 h1 {
   font-size: calc(1.5rem + 4vmin);
   font-weight: 700;
@@ -35,6 +37,7 @@ p {
 
 a {
   font-weight: 700;
+  color: blue;
 }
 
 .page-container {
@@ -56,6 +59,8 @@ footer{
   margin: 0 auto;
   padding: 1rem;
   background-color: var(--color-primary);
+  overflow: hidden;
+
 }
 footer a{
     color: var(--color-light);
